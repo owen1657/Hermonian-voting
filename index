@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Custom Language Translator</h1>
+        <textarea id="inputText" placeholder="Enter text in English"></textarea>
+        <button onclick="translate()">Translate</button>
+        <div id="output">
+            <h2>Translation:</h2>
+            <p id="outputText">Your translation will appear here...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
